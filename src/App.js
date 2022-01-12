@@ -1,25 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Profile from './Component/Profile';
 function App() {
+  const obj={display:"flex"}
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Profile object={obj} fullName={"Fadhlaoui Marwa"} adresse={"residence le palais menzah 7 bis"} profession={"conseiller client"} > https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpSm8dQLFFEZaRNIVBU4K_DpXSN6taLbdUQw&usqp=CAU</Profile> 
     </div>
   );
 }
 
 export default App;
+
